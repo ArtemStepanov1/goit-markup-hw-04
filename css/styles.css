@@ -382,7 +382,6 @@ body {
 }
   
 .icon-clients {
-    
     fill: currentColor;
 }
   
@@ -399,7 +398,13 @@ body {
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    }
+ 
+    
+}
+
+.footer-box {
+    display: flex;
+}
 
 .footer-logo {
     font-family: Raleway;
@@ -418,9 +423,13 @@ body {
     letter-spacing: 0.03em;
     color: var(--header-text-color);
     margin-bottom: 9px;
+    margin-top: 20px;
 }
 .footer-mail {
     margin-bottom: 9px;
+}
+.address-box {
+    margin-right: 70px;
 }
 
 .footer-contacts{
@@ -429,6 +438,49 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+}
+
+
+.join-title{
+    margin-bottom: 20px;
+    color: var(--contrast-txt-color);
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-text-color);
+}
+.join .list {
+    display: flex;
+    align-items: center;
+}
+.join {
+    margin-left: 70px;
+    padding-right: 872px;
+}
+
+.join-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.join-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.join-link:hover,
+.join-link:focus {
+  background-color: var(--accent-color);
+}
+
+.join-icon {
+    fill: #ffffff
 }
 
 /*---------------------PORTFOLIO--------------------- */
