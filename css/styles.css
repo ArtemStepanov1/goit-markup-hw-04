@@ -397,9 +397,7 @@ body {
 .footer {
     background-color: #2F303A;
     padding-top: 60px;
-    padding-bottom: 60px;
- 
-    
+    padding-bottom: 60px;  
 }
 
 .footer-box {
@@ -439,6 +437,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
 }
+.address-box-list {
+    margin-top: 20px;
+}
 
 
 .join-title{
@@ -450,15 +451,13 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--header-text-color);
+    padding-top: 12px;
 }
 .join .list {
     display: flex;
     align-items: center;
 }
-.join {
-    margin-left: 70px;
-    padding-right: 872px;
-}
+
 
 .join-item:not(:last-child) {
     margin-right: 10px;
